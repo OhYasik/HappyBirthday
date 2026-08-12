@@ -1,0 +1,17 @@
+name: Deploy
+
+jobs:
+
+  deploy:
+
+    steps:
+
+      - name: Validate
+
+      - name: Deploy
+
+      - name: Finish
+
+        run: |
+          echo "Mission completed."
+          echo "Scan QR."
