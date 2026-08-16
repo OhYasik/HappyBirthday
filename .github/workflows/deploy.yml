@@ -1,17 +1,20 @@
-name: Deploy
+name: Birthday Deployment
+
+on:
+  workflow_dispatch:
 
 jobs:
-
   deploy:
+    runs-on: ubuntu-latest
 
     steps:
-
       - name: Validate
+        run: echo "Validating engineer..."
 
       - name: Deploy
+        run: echo "Deploying birthday..."
 
       - name: Finish
-
         run: |
           echo "Mission completed."
-          echo "Scan QR."
+          echo "Find the link."
